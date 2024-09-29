@@ -30,11 +30,7 @@ def visualizer(videoPath):
   o3d.visualization.draw_plotly([pcd])
   print('Done')
 
-from google.colab import drive
-drive.mount('/content/drive')
 
-#Example
-visualizer('/content/drive/My Drive/out.mp4')
 
 '''
 @func readVideoFileAsImageSequence
